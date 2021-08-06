@@ -9,6 +9,24 @@ figcaption{
 	padding-bottom: 20px;
 }
 
+
+.btn-primary {
+    color: #272727;
+    background-color: transparent;
+    border-color: #272727;
+}
+
+.btn {
+    padding: 9px 25px;
+    color: #272727;
+    background: none;
+    border: 1px solid #272727;
+    border-radius: 20px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    float: inherit;
+}
 h5{
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
         color: #aaa;
