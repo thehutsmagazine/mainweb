@@ -106,6 +106,36 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/20211012_214635.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -10140,7 +10170,8 @@ position: relative;
 
 .column {
 	float: left;
-	width: 25%;
+	width: 50%;
+	height: 100%;
 	padding: 0 10px;
 }
 
@@ -10153,21 +10184,7 @@ position: relative;
 
 }
 
-@media screen and (max-width: 600px) {
-	.column {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-}
 
-.carde {
-	box-shadow:none;
-	padding: 16px;
-	text-align: center;
-	background-color: transparent;
-	height: 100px;
-}
 
  h5{
 	color: #D30E7C;
@@ -10197,29 +10214,6 @@ position: relative;
 	}
 }
 
-.one{
-	background-image:url("Interview Images/ttttt.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-.two{
-	background-image: url("Images/image-from-rawpixel-id-1232868-jpeg.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-.three{
-	background-image: url("Images/pf-misc14-adj00827-adj-a.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-.four{
-	background-image: url("Images/image-from-rawpixel-id-2293598-jpeg.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
 
 .carde p{
 	color: aliceblue;
@@ -10386,7 +10380,7 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 	}
 .columner{
 	float: left;
-	width: 50%;
+	width: 80%;
 }
 
 .left{
